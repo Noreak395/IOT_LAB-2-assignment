@@ -64,3 +64,9 @@ import dht
 import network
 import time
 import urequests
+```
+###5. Flowchart
+
+![Alternative Text](folder-name/your-photo-name.jpg)
+
+![Flowchart](Flowchart.drawio.png)

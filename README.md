@@ -65,8 +65,86 @@ import network
 import time
 import urequests
 ```
-###5. Flowchart
 
-![Alternative Text](folder-name/your-photo-name.jpg)
+Configuration Steps
+
+Before running the program, configure the Wi-Fi and Telegram settings in Source Code.py.
+
+Step 1: Configure Wi-Fi
+
+Enter your Wi-Fi network name and password in the source code:
+
+SSID = "YOUR_WIFI_NAME"
+PASSWORD = "YOUR_WIFI_PASSWORD"
+Step 2: Create a Telegram Bot
+Open Telegram and search for BotFather.
+Send /newbot.
+Follow the instructions to create a bot.
+Copy the bot token provided by BotFather.
+Enter the token in the source code:
+BOT_TOKEN = "YOUR_BOT_TOKEN"
+Step 3: Configure the Chat ID
+Add the bot to your Telegram group.
+Send a message in the group.
+Obtain the group chat ID.
+Enter the chat ID in the source code:
+CHAT_ID = "YOUR_CHAT_ID"
+Step 4: Configure the Temperature Limit
+
+The program uses a temperature limit to control the relay and send alerts.
+
+TEMP_LIMIT = 27
+
+This value can be adjusted for testing.
+
+Step 5: Upload and Run the Program
+Connect the ESP32 to the laptop using a USB cable.
+Open Source Code.py in Thonny IDE.
+Select the ESP32 device and the correct serial port.
+Enter the Wi-Fi and Telegram configuration.
+Upload the Python file to the ESP32.
+Run the program.
+Open the Telegram group and send commands to the bot.
+
+5. Usage Instructions
+
+After the ESP32 connects to Wi-Fi, open the Telegram group and send commands to the bot.
+
+Command	Function
+/status	Displays the current temperature, humidity, and relay state.
+/on	Turns the relay ON and stops temperature alerts.
+/off	Turns the relay OFF.
+Example Usage
+
+Send:
+
+/status
+
+The bot replies with the current temperature, humidity, and relay state.
+
+Send:
+
+/on
+
+The relay turns ON and temperature alerts stop.
+
+Send:
+
+/off
+
+The relay turns OFF.
+
+Automatic Temperature Control
+
+The ESP32 reads the temperature and humidity every 5 seconds.
+
+When the temperature reaches the configured limit and the relay is OFF, the bot sends a warning message every 5 seconds.
+
+When /on is received, the relay turns ON and warning messages stop.
+
+When the temperature drops below the configured limit, the relay automatically turns OFF and a one-time auto-OFF notification is sent.
+
+
+6. Flowchart
 
 ![Flowchart](Flowchart.drawio.png)

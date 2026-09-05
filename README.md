@@ -49,7 +49,7 @@ The components are connected to the ESP32 as follows:
 
 ### Wiring Photo
 
-![Wiring](images/wiring.jpg)
+![Wiring](Component.jpg)
 
 
 ## 4. Software Setup

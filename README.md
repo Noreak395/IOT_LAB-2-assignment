@@ -106,7 +106,7 @@ Upload the Python file to the ESP32.
 Run the program.
 Open the Telegram group and send commands to the bot.
 
-5. Usage Instructions
+## 5. Usage Instructions
 
 After the ESP32 connects to Wi-Fi, open the Telegram group and send commands to the bot.
 

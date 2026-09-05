@@ -145,6 +145,30 @@ When /on is received, the relay turns ON and warning messages stop.
 When the temperature drops below the configured limit, the relay automatically turns OFF and a one-time auto-OFF notification is sent.
 
 
-6. Flowchart
+## 6. Flowchart
 
 ![Flowchart](Flowchart.drawio.png)
+
+## 7. Evidence
+
+Task 1 — Sensor Read & Print
+
+The ESP32 reads the temperature and humidity and prints the values to the serial monitor.
+
+
+
+Task 2 — Telegram Send
+
+The send_message() function is used to send a test message to the Telegram group.
+
+
+
+Task 3 — Telegram Bot Commands
+
+The bot responds to /status, /on, and /off.
+
+
+
+Task 4 — Automatic Temperature Control
+
+The demonstration video shows the temperature-based relay control, temperature alerts, and automatic relay OFF behavior.

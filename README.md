@@ -168,5 +168,4 @@ The bot responds to /status, /on, and /off.
 
 Task 4 — Automatic Temperature Control
 The demonstration video shows the temperature-based relay control, temperature alerts, and automatic relay OFF behavior.
-
-https://github.com/Noreak395/IOT_LAB-2-assignment/blob/main/README.md
+https://youtube.com/shorts/nBZ1uWJsp8U?feature=share

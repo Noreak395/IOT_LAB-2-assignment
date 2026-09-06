@@ -1,3 +1,5 @@
+<img width="1015" height="897" alt="Task-1-(1)" src="https://github.com/user-attachments/assets/f056ca55-73d6-4c3c-8bb2-be38d0499604" />
+<img width="1015" height="897" alt="Task-1-(1)" src="https://github.com/user-attachments/assets/65493cf1-94fb-451e-a675-4f2ee0b82315" />
 # IOT_LAB-2-assignment
 
 # LAB1: Temperature Sensor with Relay Control Using Telegram
@@ -18,6 +20,13 @@ When the temperature is 25°C or higher and the relay is OFF, the ESP32 sends a 
 When the user sends `/on`, the relay turns ON and the warning messages stop.
 
 When the temperature drops below 25°C, the relay automatically turns OFF and sends a one-time auto-OFF message.
+
+<img width="1015" height="897" alt="Task-1-(1)" src="https://github.com/user-attachments/assets/56ed7a70-d5eb-4f9f-9290-560ce9b2872d" />
+
+<img width="808" height="815" alt="Task-1-(2)" src="https://github.com/user-attachments/assets/e7611e03-2463-4b3d-bacd-a0b9ed247f7d" />
+
+<img width="887" height="678" alt="Task-1-(3)" src="https://github.com/user-attachments/assets/2bed834a-41ef-4c66-958a-bcf0b39ad2c9" />
+
 
 
 ## 2. Equipment

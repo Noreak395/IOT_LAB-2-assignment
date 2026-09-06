@@ -153,7 +153,6 @@ When the temperature drops below the configured limit, the relay automatically t
 
 Task 1 — Sensor Read & Print
 The ESP32 reads the temperature and humidity and prints the values to the serial monitor.
-![Task](Task-1-(1).JPG)
 ![Task](Task-1-(2).jpg)
 ![Task](Task-1-(3).jpg)
 

@@ -1,5 +1,4 @@
-<img width="1015" height="897" alt="Task-1-(1)" src="https://github.com/user-attachments/assets/f056ca55-73d6-4c3c-8bb2-be38d0499604" />
-<img width="1015" height="897" alt="Task-1-(1)" src="https://github.com/user-attachments/assets/65493cf1-94fb-451e-a675-4f2ee0b82315" />
+
 # IOT_LAB-2-assignment
 
 # LAB1: Temperature Sensor with Relay Control Using Telegram
